@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: white;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.botoes {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button#limpar {
+  background: #f44336;
+}
+
+.mensagem {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.mensagem.ok { background: #d4edda; color: #155724; }
+.mensagem.warn { background: #fff3cd; color: #856404; }
+.mensagem.err { background: #f8d7da; color: #721c24; }
+
+.loading {
+  background: #eee url('data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQmZmZjY2NnZ2dv///wAAAAAAAAAAACH5BAEAAAUALAAAAAAQABAAAANKeLrc/jDKSau9OOvNu/9gKI5kiW5k2hUaoKwIAOw==') no-repeat right center;
+  background-size: 16px;
+}
